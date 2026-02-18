@@ -9,7 +9,7 @@ def generate():
     return tuple(sorted(sample(pool, 5))), randint(1, 26)
 
 if __name__ == '__main__':
-    print('  #  |       Start Time       |   Winning Numbers    |       Number of Guesses   |   Time Taken   |        End Time      ')
+    print('  #  |       Start Time       |   Winning Numbers    |      Number of Guesses   |   Time Taken   |        End Time      ')
     print('-------------------------------------------------------------------------------------------------------------------------')
     for z in count(1):
 
@@ -33,5 +33,5 @@ if __name__ == '__main__':
 
         for i in count(1):
             if generate() == goal:
-                print(f'{i:>13,} guesses  |  {round(perf_counter() - start):>4} seconds  |  {datetime.now().strftime("%m/%d/%Y, %H:%M:%S")}')
+                print(f'{i:>12,} guesses  |  {round(perf_counter() - start):>4} seconds  |  {datetime.now().strftime("%m/%d/%Y, %H:%M:%S")}')
                 break
