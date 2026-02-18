@@ -3,4 +3,4 @@
 Here is a picture of an example output (I'll probably get a better one soon):
 
 
-<img width="850" height="57" alt="image" src="https://github.com/user-attachments/assets/f4706094-5ac9-4872-8fbe-26fdbe87cf5b" />
+<img width="852" height="93" alt="image" src="https://github.com/user-attachments/assets/849ecee2-0731-4095-931b-016bdb839df6" />
