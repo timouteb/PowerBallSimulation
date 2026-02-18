@@ -9,6 +9,8 @@ def generate():
     return tuple(sorted(sample(pool, 5))), randint(1, 26)
 
 if __name__ == '__main__':
+    print('  #  |       Start Time       |   Winning Numbers    |       Number of Guesses   |   Time Taken   |        End Time      ')
+    print('-------------------------------------------------------------------------------------------------------------------------')
     for z in count(1):
 
     # Select winning number
