@@ -35,3 +35,5 @@ if __name__ == '__main__':
             if generate() == goal:
                 print(f'{i:>12,} guesses  |  {round(perf_counter() - start):>4} seconds  |  {datetime.now().strftime("%m/%d/%Y, %H:%M:%S")}')
                 break
+
+# Is this here?
